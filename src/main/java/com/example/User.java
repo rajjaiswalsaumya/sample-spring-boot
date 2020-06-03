@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 public class User {
     private String emailId;
     private String userName;
+    private String password;
 
     public User(String userName) {
         this.userName = userName;
